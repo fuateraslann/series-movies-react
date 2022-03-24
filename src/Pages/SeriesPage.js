@@ -4,8 +4,7 @@ import useFilms from '../Hook/UseFilms'
 import FilmCard from '../Components/FilmCard'
 export default function SeriesPage() {
 
-  const {data ,error ,loading , setData} = useFilms("series")
-  console.log(data , error , loading , setData)
+  const {data ,error ,loading } = useFilms("series")
   return (
     <div >
       <SubTitle subTitleHeader = "Series"/>

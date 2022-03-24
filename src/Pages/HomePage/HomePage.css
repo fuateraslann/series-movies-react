@@ -1,9 +1,3 @@
-.container {
-	padding-bottom: 3rem;
-	display: "flex";
-	flex-direction: "row";
-	height:"400px"
-}
 img {
 	-webkit-box-reflect: below 5px
 		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
@@ -14,8 +8,13 @@ img {
 	width: 200px;
 	margin : 10px
 }
-.container img:hover {
+img:hover {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
+}
+.container figcaption{
+	display : "flex " ;
+	flex-direction : "row" ;
+	margin: "5px"
 }

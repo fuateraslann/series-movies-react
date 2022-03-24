@@ -8,10 +8,10 @@ export default function useFilms(genre) {
 
   async function fetchFilms() {
     try {
-      const response = await axios.get("https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json");
+      const response = await axios.get(process.env.REACT_APP_HOST);
       setData(response.data.entries
         .filter(element => element.releaseYear >= 2010)
-        .filter(element => (element.programType == genre))
+        .filter(element => (element.programType === genre))
         .sort((a,b) => {
           if(a.title > b.title) {
             return 1;
@@ -36,6 +36,5 @@ export default function useFilms(genre) {
     data,
     loading,
     error,
-    setData,
   };
 }

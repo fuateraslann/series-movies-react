@@ -5,13 +5,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+
 export default function FilmCard({data}) {
-  data.map(element => console.log(element))
   return (
-    <div style = {{maxHeight : window.innerHeight*85/100 , overflow :"auto"}}>
+    <div style = {{height : window.innerHeight*80/100 ,overflow: "scroll"}}>
       {data.map((element,index) =>(
-          <div style = {{display: "inline-block" , margin : "10px" }} key = {index}>
-            <Card sx={{ width : 200 , height : 500 }}>
+          <div style = {{display: "inline-block" , margin : "20px" }} key = {index}>
+            <Card sx={{ width : 200 , height : 500 , marginBottom : "15px"}}>
               <CardActionArea>
                 <CardMedia
                   component="img"

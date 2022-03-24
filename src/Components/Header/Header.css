@@ -1,0 +1,31 @@
+.container{
+    height: 50px;
+    background-color:darkblue;
+    color : rgb(77, 171, 245);
+}
+.container h2{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.container button{
+    background-color: #3e6cc2; 
+    border: none;
+    float:right;
+    height: 50px;
+    width: 60px;
+    color: white;
+    padding: 10px;
+    margin : "10px";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+  .container button:hover {
+    background-color: #34a7ca;
+  }
