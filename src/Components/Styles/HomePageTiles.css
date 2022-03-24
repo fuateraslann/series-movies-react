@@ -2,6 +2,7 @@
 	padding-bottom: 3rem;
 	display: "flex";
 	flex-direction: "row";
+	height:"400px"
 }
 img {
 	-webkit-box-reflect: below 5px

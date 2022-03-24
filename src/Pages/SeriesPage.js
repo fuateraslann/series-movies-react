@@ -7,7 +7,7 @@ export default function SeriesPage() {
   const {data ,error ,loading , setData} = useFilms("series")
   console.log(data , error , loading , setData)
   return (
-    <div style = {{marginBottom :"50px" }}>
+    <div >
       <SubTitle subTitleHeader = "Series"/>
       {error ? "something went wrong" 
       :loading ? "Loading..."

@@ -7,7 +7,7 @@ export default function MoviesPage() {
   const {data ,error ,loading , setData} = useFilms("movie")
   console.log(data , error , loading , setData)
   return (
-    <div style = {{marginBottom :"50px" }}>
+    <div >
       <SubTitle subTitleHeader = "Movies"/>
       {error ? "something went wrong" 
       :loading ? "Loading..."

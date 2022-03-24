@@ -8,7 +8,7 @@ import { CardActionArea } from '@mui/material';
 export default function FilmCard({data}) {
   data.map(element => console.log(element))
   return (
-    <div >
+    <div style = {{maxHeight : window.innerHeight*85/100 , overflow :"auto"}}>
       {data.map((element,index) =>(
           <div style = {{display: "inline-block" , margin : "10px" }} key = {index}>
             <Card sx={{ width : 200 , height : 500 }}>

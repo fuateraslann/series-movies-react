@@ -6,7 +6,7 @@ export default function SubTitle({subTitleHeader}) {
         height : "18px", 
         backgroundColor :"#4dabf5",
         float : "top",
-        textAlign : "left",
+        textAlign : "center",
         fontWeight: "larger",
         color : "#fff",
         padding : "10px",
