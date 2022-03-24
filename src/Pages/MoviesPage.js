@@ -1,14 +1,18 @@
 import React from 'react'
 import SubTitle from '../Components/SubTitle'
 import useFilms from '../Hook/UseFilms'
-
+import FilmCard from '../Components/FilmCard'
 export default function MoviesPage() {
 
-  const movies = useFilms("movie")
-  console.log(movies)
+  const {data ,error ,loading , setData} = useFilms("movie")
+  console.log(data , error , loading , setData)
   return (
-    <div>
+    <div style = {{marginBottom :"50px" }}>
       <SubTitle subTitleHeader = "Movies"/>
+      {error ? "something went wrong" 
+      :loading ? "Loading..."
+      :<FilmCard data = {data}/> 
+      }
     </div>
   )
 }

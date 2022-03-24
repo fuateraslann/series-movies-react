@@ -36,8 +36,9 @@ export default function Footer() {
 
   const style = {
     width : "100%",
-    position : "absolute",
-    bottom : 0
+    position : "fixed",
+    bottom  :0,
+    maxHeight: "110px"
   }
 
   return (

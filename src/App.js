@@ -7,12 +7,12 @@ import MainRouter from './Router/MainRouter';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <Header />
       <BrowserRouter >
-        <Header />
         <MainRouter />
-        <Footer />
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

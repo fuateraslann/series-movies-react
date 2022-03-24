@@ -5,7 +5,7 @@ import SubTitle from '../Components/SubTitle'
 
 export default function HomePage() {
   return (
-      <div style = {{height : "70%"}}>
+      <div >
         <SubTitle subTitleHeader="Categories"/>
         <HomePageTiles/>
       </div>
