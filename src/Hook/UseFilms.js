@@ -8,7 +8,7 @@ export default function useFilms(genre) {
 
   async function fetchFilms() {
     try {
-      const response = await axios.get(process.env.REACT_APP_HOST);
+      const response = await axios.get("https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json");
       setData(response.data.entries
         .filter(element => element.releaseYear >= 2010)
         .filter(element => (element.programType == genre))
