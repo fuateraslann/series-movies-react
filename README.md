@@ -1,3 +1,10 @@
+
+1-) The code should be scaleable , not fragile , and basically be compatible with SOLID structures . So a react component should have a single purpose and job. For this reason, separating components and making them re-usable is one of the most important things. For example, although subtitle is a variable component according to all pages, I made it usable again and again with the help of a props by only changing the text inside.I thought of pages as containers and used the components that should be in the page in these containers.In my opinion, it is better to call components such as header and footer, which are common to all, in app.js once, rather than calling them separately for each page. Since I needed to fetch the data in two pages as a common function, I decided to write a hook and I got the data by 'filtering' through this hook. Another reason I wrote it with hook is to use error and loading states.
+
+2-)It would be better to write tests ,use a state management tool like context api or redux and to write styles in a css file that I can import and use, not in a component.
+
+3-) If there was much more time, I would like to do test driven development or writing detailed tests and also instead of using ready-made ui components like I use in filmcards, I could write their own css. If it was a project with a more complex parent-child relationship and a lot of componentsü, I would need a state container. Even as a different solution, instead of using hooks, I could fetch the data only once and use it in all components via state management. Currently, data is fetched separately for series and movies. I chose this solution because it is more understandable and easier. In complex problems, the state management tool should be used and it would be useful in terms of performance and reusability.
+
 ## Available Scripts
 
 In the project directory, you can run:
