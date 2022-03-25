@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04d2acb7.css",
+    "main.js": "/static/js/main.649f6787.js",
+    "static/js/787.55ac50a2.chunk.js": "/static/js/787.55ac50a2.chunk.js",
+    "static/media/app-store.svg": "/static/media/app-store.39f55c3f05d8ca2cd62149c37310bb5b.svg",
+    "static/media/instagram-blue.svg": "/static/media/instagram-blue.717fbae759d7ffe0460b5d0bb58c174f.svg",
+    "index.html": "/index.html",
+    "static/media/twitter-blue.svg": "/static/media/twitter-blue.b283bab59804471d4a7eb520c31f5c17.svg",
+    "static/media/facebook-blue.svg": "/static/media/facebook-blue.c8556a191345e43724dc8da41b115912.svg",
+    "main.04d2acb7.css.map": "/static/css/main.04d2acb7.css.map",
+    "main.649f6787.js.map": "/static/js/main.649f6787.js.map",
+    "787.55ac50a2.chunk.js.map": "/static/js/787.55ac50a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04d2acb7.css",
+    "static/js/main.649f6787.js"
+  ]
+}
