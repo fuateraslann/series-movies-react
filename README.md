@@ -5,6 +5,8 @@
 
 3-) If there was much more time, I would like to do test driven development or writing detailed tests and also instead of using ready-made ui components like I use in filmcards, I could write their own css. If it was a project with a more complex parent-child relationship and a lot of componentsü, I would need a state container. Even as a different solution, instead of using hooks, I could fetch the data only once and use it in all components via state management. Currently, data is fetched separately for series and movies. I chose this solution because it is more understandable and easier. In complex problems, the state management tool should be used and it would be useful in terms of performance and reusability.
 
+https://bestmovi.herokuapp.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
